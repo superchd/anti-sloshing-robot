@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# MATLAB Drive metadata
+.MATLABDriveTag
+
+# MATLAB / Simulink cache & autosaves
+*.slxc
+*.autosave
+*.asv
+slprj/
+
+# Simulation outputs (regenerable)
+results/
+Mid_result/
+
+# Reference paper (copyrighted, do not redistribute)
+1-s2.0-S092188902400112X-main.pdf
+
+# Python cache (from figure-generation scripts)
+__pycache__/
+*.pyc
