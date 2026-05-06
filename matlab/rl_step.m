@@ -31,7 +31,7 @@ function [Observation, Reward, IsDone, LoggedSignals] = rl_step(Action, LoggedSi
     %   weights chosen so theta (slosh) dominates, balance is hard constraint
     a_theta   = 50.0;
     a_psi     = 20.0;
-    a_track   =  2.0;
+    a_track   =  3;
     a_du      =  0.05;
     du        = u - LoggedSignals.last_u;
 
